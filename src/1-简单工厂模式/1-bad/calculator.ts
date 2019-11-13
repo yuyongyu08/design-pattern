@@ -1,22 +1,22 @@
 let readlineSync = require('readline-sync');
 
-let a = readlineSync.question('请输入第一个数字：');
+let param1 = readlineSync.question('请输入第一个数字：');
 let operator = readlineSync.question('请输入运算符（+、—、*、/）：');
-let b = readlineSync.question('请输入第二个数字：');
+let param2 = readlineSync.question('请输入第二个数字：');
 
 var result = 0;
 switch (operator) {
     case '+':
-        result = a + b;
+        result = param1 + param2;
         break;
     case '-':
-        result = a - b;
+        result = param1 - param2;
         break;
     case '*':
-        result = a * b;
+        result = param1 * param2;
         break;
     case '/':
-        result = a / b;
+        result = param1 / param2;
         break;
 }
 
