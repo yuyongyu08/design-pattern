@@ -1,7 +1,7 @@
-import Discount from './Discount'
-import ReturnDiscount from './ReturnDiscount'
-import RateDiscount from './RateDiscount'
-import { CasherParams } from './type.d'
+import Discount from '../Discount'
+import ReturnDiscount from '../ReturnDiscount'
+import RateDiscount from '../RateDiscount'
+import { CasherParams } from './type'
 
 export default class Casher{
     count: number
