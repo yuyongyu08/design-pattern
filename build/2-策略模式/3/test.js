@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/2-策略模式/3/test.ts");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/2-策略模式/3/test.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,15 +98,15 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 
 /***/ }),
 
-/***/ "./src/2-策略模式/3/test.ts":
+/***/ "./src/2-策略模式/3/test.js":
 /*!******************************!*\
-  !*** ./src/2-策略模式/3/test.ts ***!
+  !*** ./src/2-策略模式/3/test.js ***!
   \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Casher_1 = __importDefault(__webpack_require__(/*! ./Casher */ \"./src/2-策略模式/3/Casher.ts\"));\n(function (window) {\n    window.Casher = Casher_1.default;\n})(window);\n\n\n//# sourceURL=webpack:///./src/2-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/3/test.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Casher__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Casher */ \"./src/2-策略模式/3/Casher.ts\");\n/* harmony import */ var _Casher__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Casher__WEBPACK_IMPORTED_MODULE_0__);\n\n\n(function(window){\n    window.Casher = _Casher__WEBPACK_IMPORTED_MODULE_0___default.a\n})(window)\n\n//# sourceURL=webpack:///./src/2-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/3/test.js?");
 
 /***/ }),
 
