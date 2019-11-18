@@ -2,7 +2,7 @@ import Operator from './Operator'
 export default class OperatorAdd extends Operator {
     public getResult(){
         let result: number = 0;
-        result = param1 + param2
+        result = this.param1 + this.param2
         return result
     }
 }
