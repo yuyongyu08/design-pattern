@@ -13,3 +13,6 @@ try {
 } catch (error) {
     console.error(error)
 }
+
+//TODO 弊端：每增加一个类就需要修改工厂类（OperatorFactory）
+//解决：工厂方法模式
