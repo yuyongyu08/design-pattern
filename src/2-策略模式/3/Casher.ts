@@ -15,7 +15,7 @@ export default class Casher{
         this.discountParams = params.discount
     }
 
-    getDiscountResult(){
+    private getDiscountResult(){
         let discount = null
         let discountMoney = 0        
 

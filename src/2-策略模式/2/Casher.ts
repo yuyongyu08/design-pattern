@@ -14,7 +14,7 @@ export default class Casher{
         this.discountMoney = 0
     }
 
-    getDiscount(discountType: string){
+    private getDiscount(discountType: string){
         let discount = null
         switch (true) {
             case discountType === 'return':
