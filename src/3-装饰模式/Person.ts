@@ -6,6 +6,6 @@ export default class Person {
     }
 
     show() {
-        console.log(`经过装扮的${this.name}`);
+        console.log(`${this.name}`);
     }
 }
