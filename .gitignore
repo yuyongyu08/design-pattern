@@ -21,4 +21,5 @@ yarn-error.log*
 *.sw?
 
 # build files
-dist/*.map
+dist/
+build/
