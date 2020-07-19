@@ -8,6 +8,8 @@ export default class TeamLeader extends Manager {
     }
 
     handleRequest(request: WorkRequest): void {
+        console.log(`***********${request.content}***********`);
+
         if (request.type == RequestType.Leave) {
             if (request.count <= 1) {
                 console.log(`${this.name}：审批通过`);

@@ -16,8 +16,12 @@ export default class BusinessDirector extends Manager {
                 this.superior.handleRequest(request)
             }
         } else if (request.type == RequestType.Overtime) {
-            console.log(`${this.name}：审批通过，报请${this.superior.name}审批`);
-            this.superior.handleRequest(request)
+            if (request.count <= 3) {
+                console.log(`${this.name}：审批通过`);
+            } else {
+                console.log(`${this.name}：审批通过，报请${this.superior.name}审批`);
+                this.superior.handleRequest(request)
+            }
         } else{
             console.log(`${this.name}：内部研究下`);
         }

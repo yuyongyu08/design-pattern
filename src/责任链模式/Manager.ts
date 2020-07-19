@@ -1,11 +1,11 @@
 import WorkRequest from './WorkRequest'
 
 export default abstract class Manager {
-    abstract superior: Manager
+    // public name: string
+    public superior: Manager;
 
-    constructor(public name: string) {   
-        
-     }
+    constructor(public name: string) {
+    }
 
     setSuperior(superior: Manager): Manager{
         this.superior = superior
