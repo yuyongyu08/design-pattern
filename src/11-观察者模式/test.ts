@@ -19,4 +19,3 @@ sportChannel.deleteReader(yyy)
 news = new News('sport', 'NBA停摆 再现资本失能')
 
 sportChannel.addNews(news)
-
