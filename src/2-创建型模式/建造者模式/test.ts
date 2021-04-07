@@ -1,6 +1,6 @@
-import BuilderDirector from './BuilderDirector'
-import ThinPersonBuilder from './ThinPersonBuilder'
-import FatPersonBuilder from './FatPersonBuilder'
+import BuilderDirector from './src/BuilderDirector'
+import ThinPersonBuilder from './src/ThinPersonBuilder'
+import FatPersonBuilder from './src/FatPersonBuilder'
 
 let thin = new ThinPersonBuilder()
 let fat = new FatPersonBuilder()

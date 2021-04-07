@@ -6,7 +6,8 @@
 
 #### 素材
 
-《大话设计模式》
+* 《大话设计模式》
+* https://refactoringguru.cn/
 
 #### 示例
 

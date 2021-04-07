@@ -1,10 +1,10 @@
 import PersonBuilder from './PersonBuilder'
 
 export default class BuilderDirector{
-    // personBuilder: PersonBuilder
+    personBuilder: PersonBuilder
 
-    constructor(private personBuilder: PersonBuilder){
-        // this.personBuilder = personBuilder
+    constructor(personBuilder: PersonBuilder){
+        this.personBuilder = personBuilder
     }
 
     createPerson(){
